@@ -8,6 +8,6 @@ class BranchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_branch)
 
-        val a = "ini agus"
+        val a = "ini agus ea"
     }
 }
