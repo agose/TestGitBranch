@@ -11,14 +11,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         toast()
-        showMessage()
+        showMessageG()
     }
 
     private fun toast(){
         Toast.makeText(this, "ini agus buat", Toast.LENGTH_LONG).show()
     }
 
-    private fun showMessage(){
-        Toast.makeText(this, "ini agus buat", Toast.LENGTH_LONG).show()
+    private fun showMessageG(){
+        Toast.makeText(this, "ini rizky", Toast.LENGTH_LONG).show()
     }
 }
