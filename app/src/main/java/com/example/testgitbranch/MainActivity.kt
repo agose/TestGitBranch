@@ -10,10 +10,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-     toast()
+        toast()
+        showMessage()
     }
 
     private fun toast(){
+        Toast.makeText(this, "ini agus buat", Toast.LENGTH_LONG).show()
+    }
+
+    private fun showMessage(){
         Toast.makeText(this, "ini agus buat", Toast.LENGTH_LONG).show()
     }
 }
